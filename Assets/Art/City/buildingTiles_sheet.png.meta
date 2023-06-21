@@ -1,0 +1,3135 @@
+fileFormatVersion: 2
+guid: 96877efb86bc4494bba23afe16fe4622
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: buildingTiles_sheet_0
+  - first:
+      213: 21300002
+    second: buildingTiles_sheet_1
+  - first:
+      213: 21300004
+    second: buildingTiles_sheet_2
+  - first:
+      213: 21300006
+    second: buildingTiles_sheet_3
+  - first:
+      213: 21300008
+    second: buildingTiles_sheet_4
+  - first:
+      213: 21300010
+    second: buildingTiles_sheet_5
+  - first:
+      213: 21300012
+    second: buildingTiles_sheet_6
+  - first:
+      213: 21300014
+    second: buildingTiles_sheet_7
+  - first:
+      213: 21300016
+    second: buildingTiles_sheet_8
+  - first:
+      213: 21300018
+    second: buildingTiles_sheet_9
+  - first:
+      213: 21300020
+    second: buildingTiles_sheet_10
+  - first:
+      213: 21300022
+    second: buildingTiles_sheet_11
+  - first:
+      213: 21300024
+    second: buildingTiles_sheet_12
+  - first:
+      213: 21300026
+    second: buildingTiles_sheet_13
+  - first:
+      213: 21300028
+    second: buildingTiles_sheet_14
+  - first:
+      213: 21300030
+    second: buildingTiles_sheet_15
+  - first:
+      213: 21300032
+    second: buildingTiles_sheet_16
+  - first:
+      213: 21300034
+    second: buildingTiles_sheet_17
+  - first:
+      213: 21300036
+    second: buildingTiles_sheet_18
+  - first:
+      213: 21300038
+    second: buildingTiles_sheet_19
+  - first:
+      213: 21300040
+    second: buildingTiles_sheet_20
+  - first:
+      213: 21300042
+    second: buildingTiles_sheet_21
+  - first:
+      213: 21300044
+    second: buildingTiles_sheet_22
+  - first:
+      213: 21300046
+    second: buildingTiles_sheet_23
+  - first:
+      213: 21300048
+    second: buildingTiles_sheet_24
+  - first:
+      213: 21300050
+    second: buildingTiles_sheet_25
+  - first:
+      213: 21300052
+    second: buildingTiles_sheet_26
+  - first:
+      213: 21300054
+    second: buildingTiles_sheet_27
+  - first:
+      213: 21300056
+    second: buildingTiles_sheet_28
+  - first:
+      213: 21300058
+    second: buildingTiles_sheet_29
+  - first:
+      213: 21300060
+    second: buildingTiles_sheet_30
+  - first:
+      213: 21300062
+    second: buildingTiles_sheet_31
+  - first:
+      213: 21300064
+    second: buildingTiles_sheet_32
+  - first:
+      213: 21300066
+    second: buildingTiles_sheet_33
+  - first:
+      213: 21300068
+    second: buildingTiles_sheet_34
+  - first:
+      213: 21300070
+    second: buildingTiles_sheet_35
+  - first:
+      213: 21300072
+    second: buildingTiles_sheet_36
+  - first:
+      213: 21300074
+    second: buildingTiles_sheet_37
+  - first:
+      213: 21300076
+    second: buildingTiles_sheet_38
+  - first:
+      213: 21300078
+    second: buildingTiles_sheet_39
+  - first:
+      213: 21300080
+    second: buildingTiles_sheet_40
+  - first:
+      213: 21300082
+    second: buildingTiles_sheet_41
+  - first:
+      213: 21300084
+    second: buildingTiles_sheet_42
+  - first:
+      213: 21300086
+    second: buildingTiles_sheet_43
+  - first:
+      213: 21300088
+    second: buildingTiles_sheet_44
+  - first:
+      213: 21300090
+    second: buildingTiles_sheet_45
+  - first:
+      213: 21300092
+    second: buildingTiles_sheet_46
+  - first:
+      213: 21300094
+    second: buildingTiles_sheet_47
+  - first:
+      213: 21300096
+    second: buildingTiles_sheet_48
+  - first:
+      213: 21300098
+    second: buildingTiles_sheet_49
+  - first:
+      213: 21300100
+    second: buildingTiles_sheet_50
+  - first:
+      213: 21300102
+    second: buildingTiles_sheet_51
+  - first:
+      213: 21300104
+    second: buildingTiles_sheet_52
+  - first:
+      213: 21300106
+    second: buildingTiles_sheet_53
+  - first:
+      213: 21300108
+    second: buildingTiles_sheet_54
+  - first:
+      213: 21300110
+    second: buildingTiles_sheet_55
+  - first:
+      213: 21300112
+    second: buildingTiles_sheet_56
+  - first:
+      213: 21300114
+    second: buildingTiles_sheet_57
+  - first:
+      213: 21300116
+    second: buildingTiles_sheet_58
+  - first:
+      213: 21300118
+    second: buildingTiles_sheet_59
+  - first:
+      213: 21300120
+    second: buildingTiles_sheet_60
+  - first:
+      213: 21300122
+    second: buildingTiles_sheet_61
+  - first:
+      213: 21300124
+    second: buildingTiles_sheet_62
+  - first:
+      213: 21300126
+    second: buildingTiles_sheet_63
+  - first:
+      213: 21300128
+    second: buildingTiles_sheet_64
+  - first:
+      213: 21300130
+    second: buildingTiles_sheet_65
+  - first:
+      213: 21300132
+    second: buildingTiles_sheet_66
+  - first:
+      213: 21300134
+    second: buildingTiles_sheet_67
+  - first:
+      213: 21300136
+    second: buildingTiles_sheet_68
+  - first:
+      213: 21300138
+    second: buildingTiles_sheet_69
+  - first:
+      213: 21300140
+    second: buildingTiles_sheet_70
+  - first:
+      213: 21300142
+    second: buildingTiles_sheet_71
+  - first:
+      213: 21300144
+    second: buildingTiles_sheet_72
+  - first:
+      213: 21300146
+    second: buildingTiles_sheet_73
+  - first:
+      213: 21300148
+    second: buildingTiles_sheet_74
+  - first:
+      213: 21300150
+    second: buildingTiles_sheet_75
+  - first:
+      213: 21300152
+    second: buildingTiles_sheet_76
+  - first:
+      213: 21300154
+    second: buildingTiles_sheet_77
+  - first:
+      213: 21300156
+    second: buildingTiles_sheet_78
+  - first:
+      213: 21300158
+    second: buildingTiles_sheet_79
+  - first:
+      213: 21300160
+    second: buildingTiles_sheet_80
+  - first:
+      213: 21300162
+    second: buildingTiles_sheet_81
+  - first:
+      213: 21300164
+    second: buildingTiles_sheet_82
+  - first:
+      213: 21300166
+    second: buildingTiles_sheet_83
+  - first:
+      213: 21300168
+    second: buildingTiles_sheet_84
+  - first:
+      213: 21300170
+    second: buildingTiles_sheet_85
+  - first:
+      213: 21300172
+    second: buildingTiles_sheet_86
+  - first:
+      213: 21300174
+    second: buildingTiles_sheet_87
+  - first:
+      213: 21300176
+    second: buildingTiles_sheet_88
+  - first:
+      213: 21300178
+    second: buildingTiles_sheet_89
+  - first:
+      213: 21300180
+    second: buildingTiles_sheet_90
+  - first:
+      213: 21300182
+    second: buildingTiles_sheet_91
+  - first:
+      213: 21300184
+    second: buildingTiles_sheet_92
+  - first:
+      213: 21300186
+    second: buildingTiles_sheet_93
+  - first:
+      213: 21300188
+    second: buildingTiles_sheet_94
+  - first:
+      213: 21300190
+    second: buildingTiles_sheet_95
+  - first:
+      213: 21300192
+    second: buildingTiles_sheet_96
+  - first:
+      213: 21300194
+    second: buildingTiles_sheet_97
+  - first:
+      213: 21300196
+    second: buildingTiles_sheet_98
+  - first:
+      213: 21300198
+    second: buildingTiles_sheet_99
+  - first:
+      213: 21300200
+    second: buildingTiles_sheet_100
+  - first:
+      213: 21300202
+    second: buildingTiles_sheet_101
+  - first:
+      213: 21300204
+    second: buildingTiles_sheet_102
+  - first:
+      213: 21300206
+    second: buildingTiles_sheet_103
+  - first:
+      213: 21300208
+    second: buildingTiles_sheet_104
+  - first:
+      213: 21300210
+    second: buildingTiles_sheet_105
+  - first:
+      213: 21300212
+    second: buildingTiles_sheet_106
+  - first:
+      213: 21300214
+    second: buildingTiles_sheet_107
+  - first:
+      213: 21300216
+    second: buildingTiles_sheet_108
+  - first:
+      213: 21300218
+    second: buildingTiles_sheet_109
+  - first:
+      213: 21300220
+    second: buildingTiles_sheet_110
+  - first:
+      213: 21300222
+    second: buildingTiles_sheet_111
+  - first:
+      213: 21300224
+    second: buildingTiles_sheet_112
+  - first:
+      213: 21300226
+    second: buildingTiles_sheet_113
+  - first:
+      213: 21300228
+    second: buildingTiles_sheet_114
+  - first:
+      213: 21300230
+    second: buildingTiles_sheet_115
+  - first:
+      213: 21300232
+    second: buildingTiles_sheet_116
+  - first:
+      213: 21300234
+    second: buildingTiles_sheet_117
+  - first:
+      213: 21300236
+    second: buildingTiles_sheet_118
+  - first:
+      213: 21300238
+    second: buildingTiles_sheet_119
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: buildingTiles_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6b3443ef2468345a373f84a7c69ceb
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1920
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b4f7dbf7c391143afa2792bb2a56dd
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1920
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fa072b8ddf4ea408937f4616941d56
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1993
+        width: 100
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7325283abafcdf4a999ae64b514c43c
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 1987
+        width: 101
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0358a2869dad1ce4db8e4e52bfad9ffb
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1963
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a41112e2f08659740a5a721898129f74
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0d71ccc76c41f41ba3b8333711009f
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1792
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c02ac0dd2ec4c747b6cf5c7f4d12899
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1792
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f77e312c43aff74eb1a3ebde59d03c1
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1876
+        width: 100
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d661f2a1e8862bb438d08fa213ca1bdb
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1903
+        width: 100
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f24a95feef30b4e97ca589d0d0cc1e
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1842
+        width: 100
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5ddc816e894884e9c6f5e9862336fe
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1664
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc79b137ec6f1c4a8fcd1339246baf7
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1664
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acbc2544b7a52d547837874bbc76b270
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1664
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b29395a7bcbd747b5fd75fa4510c97
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1759
+        width: 100
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfde3008cbb59644bc44fdb7a894655
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1780
+        width: 100
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf406365cac148438f21baee7b39ef3
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1824
+        width: 100
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20401c9bbd5631947976c8047f053f23
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebad67e1025f984ebf8c45962464504
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1536
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34ffd0e3c85f8044ace3f4c14bf1d8d
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1536
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb3bb341e32da7d4cb86f9f26e4f2ec2
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1613
+        width: 100
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bdd34fa655f29b41aa942ec4fdd4217
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1634
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0954cb46fe7caa4ea9bcf84d4b13811
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1599
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84233fcdc4231734bba76fa5bb544416
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80055c6397b9849438a0e20adfa47fc7
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1408
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f544fb0425bb24ca847ac6dafbf449
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1408
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b83a846cff6687141800cc47c0c37667
+      internalID: 21300052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1444
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1441ef19943a54f95d98bc9d66ba23
+      internalID: 21300054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1512
+        width: 100
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4da8436bde292c4982212da0b6da9dc
+      internalID: 21300056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1427
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b508730754dd2e9478dfbada812d5d16
+      internalID: 21300058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ecf3b54dce2dea45bc4662e4db5cf73
+      internalID: 21300060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1280
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b36a1af73e835845bd72e8ec7732a42
+      internalID: 21300062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1280
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eafa009d055b2c348a9bd7343ab5497b
+      internalID: 21300064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1384
+        width: 100
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7456169be77352447b65cd97f7f3b3c4
+      internalID: 21300066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1367
+        width: 100
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c212a115df0566f4688e0e72a5cccc96
+      internalID: 21300068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1345
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c154cef114ec7c04b9863c630ea550e3
+      internalID: 21300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040a6e12062e47d4cbd4703e70f653ac
+      internalID: 21300072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1152
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3928ab94c4697a545a18388ab201e3cc
+      internalID: 21300074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1152
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f513acca5999fd4f89471018f99b220
+      internalID: 21300076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1239
+        width: 100
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b2012a70337684f861919f420e360e
+      internalID: 21300078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1221
+        width: 100
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4f536698af09c4aae1498e10cb2899
+      internalID: 21300080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1228
+        width: 100
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6652eb087edfd2b498025cac5554e2cd
+      internalID: 21300082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2877c8dc04b87d947bfb848829fbebab
+      internalID: 21300084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1024
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ed2651b3266ea4bbc0048921aef8fc
+      internalID: 21300086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1024
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757a8538a9ca9854e8e7ebc0a2a26ef5
+      internalID: 21300088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1069
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edca285c01a18a5469141e3714627135
+      internalID: 21300090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1103
+        width: 100
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a551a3abc6f4fa54b87340c726f727d3
+      internalID: 21300092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19086404c8ebf2c4ca5166dce650a089
+      internalID: 21300094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 896
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a52d69bec518cc43b9c457da04f26f6
+      internalID: 21300096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 896
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e22245f083fff48a519ecc7ee2d1cd
+      internalID: 21300098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 984
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6e26dbc096c0f42af9d1b590bd3f5b
+      internalID: 21300100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1018
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324be5b596b3d134bad29cb2b1683ae8
+      internalID: 21300102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33370641aa850946b5fbb46d5ee2737
+      internalID: 21300104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 768
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990ea379d910e9f46bf2f3a9fe286872
+      internalID: 21300106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 768
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d408bc91343e74392ec3f80f09e537
+      internalID: 21300108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 838
+        width: 100
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cd30683823c2f42b36c0963b282988
+      internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 838
+        width: 100
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2037cd33e1a5448ae4412efdb26cda
+      internalID: 21300112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 818
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b6123cdfcc23ed4ea7716f1846f49d0
+      internalID: 21300114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b52d165ea731d42b3ddcf3e39bc879
+      internalID: 21300116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 640
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f4c342e05c7cb4782cab47ba5ed483
+      internalID: 21300118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 640
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fc523121b168342833f2221bff82c0
+      internalID: 21300120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 779
+        width: 100
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67b80c187131dbe42805d2565dbc1ad5
+      internalID: 21300122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 717
+        width: 100
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4079824eddae8f94c85560991f846fcc
+      internalID: 21300124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 733
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6f5c4f21096eb4181b4b87bf5ac441
+      internalID: 21300126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805c1f303fd9f57499d1c859603ddfc6
+      internalID: 21300128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_65
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 512
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf598382fa6d2f4d8445cf41b56cf2d
+      internalID: 21300130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_66
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 512
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e30392592f11af43a8b8d99607dfe6a
+      internalID: 21300132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_67
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 593
+        width: 100
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2a649157d48ad4eabe29195d406932
+      internalID: 21300134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_68
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 598
+        width: 100
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c72e2efafbc844d9d17b657ba6a907
+      internalID: 21300136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_69
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 623
+        width: 100
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1930adbeb9ba394abfdd716d762b2f3
+      internalID: 21300138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc067f7f0d3b484694493cd18eb7562
+      internalID: 21300140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_71
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 384
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29e9a97206f7234d9e47c9b25e2a0cc
+      internalID: 21300142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_72
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 384
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4ce2e286a5bd94f91467319b77e783
+      internalID: 21300144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_73
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 384
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f30afa4c47743944be9474bd564a9f1
+      internalID: 21300146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_74
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 384
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b700d0ef0037fc4a9b2ca89b536496b
+      internalID: 21300148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_75
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 384
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc894124247921428b03397f51812be
+      internalID: 21300150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac1b5d47087acd4ea9869c42bfcbed6
+      internalID: 21300152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_77
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 256
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a54144b1ce9ce43a3cc1875343d938
+      internalID: 21300154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_78
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 256
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c298bbb2fd1e4479cbefd6dd13e9f9
+      internalID: 21300156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_79
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 256
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49515c90e1056f649b356737f89f9878
+      internalID: 21300158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_80
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 256
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a08c37e6e534464fb2ad03a8d2a8d09
+      internalID: 21300160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_81
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 256
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b8c6b568000a74e893c8a9edf0336f
+      internalID: 21300162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_82
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3d3af6fe7155e48a2960ea0ab3c2f5
+      internalID: 21300164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_83
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 128
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3068cd1b0583a79479cf104712033e17
+      internalID: 21300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_84
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 128
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1152b4e841ebd8940b5350744379c635
+      internalID: 21300168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_85
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 128
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7288c05ed71968499c786349f045856
+      internalID: 21300170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_86
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 128
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55946ebfe508a694caeebb234281c942
+      internalID: 21300172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4aa449d0ff3bf47af5071291affac6
+      internalID: 21300174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_88
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d075778f42d9d484e87ed9b0fae265e9
+      internalID: 21300176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_89
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5582df476c9dbf9478c4e2a555350803
+      internalID: 21300178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_90
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 0
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de284cc9eec4e346844fa4aa20e92d5
+      internalID: 21300180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_91
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 0
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617929cf970b0344a983fa575a7eea27
+      internalID: 21300182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_92
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1938
+        width: 100
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc527d24a4a38c4fb724caf87e0836e
+      internalID: 21300184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_93
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1878
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24682f8aab0532245a221b8e3b57e5e7
+      internalID: 21300186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_94
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1821
+        width: 100
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7ecdaa02f38904a9c96c6fc0c92305
+      internalID: 21300188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_95
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1770
+        width: 100
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9c27e6fb31e5946874db13dfd360d3
+      internalID: 21300190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1719
+        width: 100
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04fcabfa6ffca554aa4419eaf84bb022
+      internalID: 21300192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1674
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e3189f5c431b254ea801bc2f6358ee2
+      internalID: 21300194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1684
+        width: 100
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c7b2aeca549c940beed5433c04774f
+      internalID: 21300196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1529
+        width: 100
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf894a6cf98c2142be9948a6c9da5a1
+      internalID: 21300198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_100
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1572
+        width: 100
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90af2475bd34ec438152f017931c6c9
+      internalID: 21300200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_101
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1515
+        width: 100
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b979655783957a4aba2a02ed2b7c0aa
+      internalID: 21300202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_102
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1430
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf1cc1d095516046a7d4d0b55bbc248
+      internalID: 21300204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_103
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1298
+        width: 100
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d29e6d8c534e344b3cdef360c0221b
+      internalID: 21300206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_104
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1282
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea17cf1190143945a7e29baaf4d70fb
+      internalID: 21300208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_105
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1282
+        width: 100
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f5bbba0913cd741a0dd26bb4cd8c8b
+      internalID: 21300210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_106
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1154
+        width: 100
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d03d493e5a8a94c994da75b2438e80
+      internalID: 21300212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_107
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 1158
+        width: 100
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751cd4bfe75a79641a9ce5af89905124
+      internalID: 21300214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_108
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 900
+        width: 100
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8190cc065cc9b1f41bb77e4a4ac23997
+      internalID: 21300216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_109
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 958
+        width: 100
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8006a0e34efe8408c48645bedef5f8
+      internalID: 21300218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_110
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 900
+        width: 100
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23aa2b460c0d8bc4596b43265ede868a
+      internalID: 21300220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_111
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 779
+        width: 100
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0a34af71fc8da45a726e891598756c
+      internalID: 21300222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_112
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 717
+        width: 100
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1339b29266db6429cc0d874ba95625
+      internalID: 21300224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_113
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 654
+        width: 100
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed81bb64bab17f848a030e030a9410d9
+      internalID: 21300226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_114
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 657
+        width: 100
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1561e89c12d26d478cefd550ef188de
+      internalID: 21300228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_115
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 679
+        width: 100
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfdb20005cd47ee47b62b99d541592bf
+      internalID: 21300230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_116
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 532
+        width: 100
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b45af7e26daab0429ce49e833cc9f9c
+      internalID: 21300232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_117
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 538
+        width: 100
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60a4988a36abe1b42847977cd642775d
+      internalID: 21300234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_118
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 570
+        width: 100
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65ac5279d33bfd6498c41a2be0697979
+      internalID: 21300236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: buildingTiles_sheet_119
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 515
+        width: 100
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814cf79c1ebcda64c8cf6dc64b178753
+      internalID: 21300238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: dccde12cdc5909a4983520a5e1456254
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      buildingTiles_sheet_25: 21300050
+      buildingTiles_sheet_41: 21300082
+      buildingTiles_sheet_47: 21300094
+      buildingTiles_sheet_86: 21300172
+      buildingTiles_sheet_44: 21300088
+      buildingTiles_sheet_117: 21300234
+      buildingTiles_sheet_16: 21300032
+      buildingTiles_sheet_93: 21300186
+      buildingTiles_sheet_80: 21300160
+      buildingTiles_sheet_97: 21300194
+      buildingTiles_sheet_46: 21300092
+      buildingTiles_sheet_92: 21300184
+      buildingTiles_sheet_65: 21300130
+      buildingTiles_sheet_52: 21300104
+      buildingTiles_sheet_1: 21300002
+      buildingTiles_sheet_4: 21300008
+      buildingTiles_sheet_68: 21300136
+      buildingTiles_sheet_109: 21300218
+      buildingTiles_sheet_87: 21300174
+      buildingTiles_sheet_45: 21300090
+      buildingTiles_sheet_104: 21300208
+      buildingTiles_sheet_110: 21300220
+      buildingTiles_sheet_8: 21300016
+      buildingTiles_sheet_90: 21300180
+      buildingTiles_sheet_12: 21300024
+      buildingTiles_sheet_108: 21300216
+      buildingTiles_sheet_83: 21300166
+      buildingTiles_sheet_69: 21300138
+      buildingTiles_sheet_81: 21300162
+      buildingTiles_sheet_50: 21300100
+      buildingTiles_sheet_94: 21300188
+      buildingTiles_sheet_23: 21300046
+      buildingTiles_sheet_37: 21300074
+      buildingTiles_sheet_36: 21300072
+      buildingTiles_sheet_43: 21300086
+      buildingTiles_sheet_63: 21300126
+      buildingTiles_sheet_20: 21300040
+      buildingTiles_sheet_58: 21300116
+      buildingTiles_sheet_10: 21300020
+      buildingTiles_sheet_75: 21300150
+      buildingTiles_sheet_51: 21300102
+      buildingTiles_sheet_79: 21300158
+      buildingTiles_sheet_78: 21300156
+      buildingTiles_sheet_22: 21300044
+      buildingTiles_sheet_13: 21300026
+      buildingTiles_sheet_73: 21300146
+      buildingTiles_sheet_34: 21300068
+      buildingTiles_sheet_53: 21300106
+      buildingTiles_sheet_17: 21300034
+      buildingTiles_sheet_11: 21300022
+      buildingTiles_sheet_33: 21300066
+      buildingTiles_sheet_35: 21300070
+      buildingTiles_sheet_19: 21300038
+      buildingTiles_sheet_62: 21300124
+      buildingTiles_sheet_103: 21300206
+      buildingTiles_sheet_112: 21300224
+      buildingTiles_sheet_91: 21300182
+      buildingTiles_sheet_55: 21300110
+      buildingTiles_sheet_96: 21300192
+      buildingTiles_sheet_56: 21300112
+      buildingTiles_sheet_77: 21300154
+      buildingTiles_sheet_57: 21300114
+      buildingTiles_sheet_119: 21300238
+      buildingTiles_sheet_15: 21300030
+      buildingTiles_sheet_48: 21300096
+      buildingTiles_sheet_5: 21300010
+      buildingTiles_sheet_42: 21300084
+      buildingTiles_sheet_72: 21300144
+      buildingTiles_sheet_88: 21300176
+      buildingTiles_sheet_102: 21300204
+      buildingTiles_sheet_60: 21300120
+      buildingTiles_sheet_67: 21300134
+      buildingTiles_sheet_9: 21300018
+      buildingTiles_sheet_71: 21300142
+      buildingTiles_sheet_40: 21300080
+      buildingTiles_sheet_0: 21300000
+      buildingTiles_sheet_85: 21300170
+      buildingTiles_sheet_74: 21300148
+      buildingTiles_sheet_98: 21300196
+      buildingTiles_sheet_59: 21300118
+      buildingTiles_sheet_66: 21300132
+      buildingTiles_sheet_2: 21300004
+      buildingTiles_sheet_32: 21300064
+      buildingTiles_sheet_49: 21300098
+      buildingTiles_sheet_39: 21300078
+      buildingTiles_sheet_84: 21300168
+      buildingTiles_sheet_89: 21300178
+      buildingTiles_sheet_29: 21300058
+      buildingTiles_sheet_54: 21300108
+      buildingTiles_sheet_26: 21300052
+      buildingTiles_sheet_100: 21300200
+      buildingTiles_sheet_113: 21300226
+      buildingTiles_sheet_7: 21300014
+      buildingTiles_sheet_18: 21300036
+      buildingTiles_sheet_38: 21300076
+      buildingTiles_sheet_115: 21300230
+      buildingTiles_sheet_21: 21300042
+      buildingTiles_sheet_27: 21300054
+      buildingTiles_sheet_107: 21300214
+      buildingTiles_sheet_118: 21300236
+      buildingTiles_sheet_28: 21300056
+      buildingTiles_sheet_99: 21300198
+      buildingTiles_sheet_106: 21300212
+      buildingTiles_sheet_6: 21300012
+      buildingTiles_sheet_31: 21300062
+      buildingTiles_sheet_95: 21300190
+      buildingTiles_sheet_116: 21300232
+      buildingTiles_sheet_105: 21300210
+      buildingTiles_sheet_14: 21300028
+      buildingTiles_sheet_24: 21300048
+      buildingTiles_sheet_76: 21300152
+      buildingTiles_sheet_64: 21300128
+      buildingTiles_sheet_61: 21300122
+      buildingTiles_sheet_70: 21300140
+      buildingTiles_sheet_82: 21300164
+      buildingTiles_sheet_101: 21300202
+      buildingTiles_sheet_114: 21300228
+      buildingTiles_sheet_3: 21300006
+      buildingTiles_sheet_30: 21300060
+      buildingTiles_sheet_111: 21300222
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
