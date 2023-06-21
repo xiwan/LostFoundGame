@@ -271,12 +271,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Props_1: 21300002
       Props_0: 21300000
+      Props_1: 21300002
       Props_2: 21300004
-      Props_5: 21300010
-      Props_4: 21300008
       Props_3: 21300006
+      Props_4: 21300008
+      Props_5: 21300010
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -138,26 +138,22 @@ namespace LostAndFound
                 }
             }
             else  if (gameSate == GameState.Running)
-            {  
-                GameObject.Find("Directional").GetComponent<Light>().enabled = false;          
+            {                
                 CheckCondition();
             }
             else if (gameSate == GameState.Win)
             {
-                GameObject.Find("Directional").GetComponent<Light>().enabled = true;
                 player.SetActive(false);
                 Win();
                 
             } 
             else if (gameSate == GameState.Lose)
             {
-                GameObject.Find("Directional").GetComponent<Light>().enabled = true;
                 player.SetActive(false);
                 Lose();
             } 
             else if (gameSate == GameState.Pause)
             {
-                GameObject.Find("Directional").GetComponent<Light>().enabled = true;
                 if (Input.GetKey(KeyCode.Escape))
                 {
                     SwitchCamera(initCamera, mainCamera);
@@ -188,7 +184,6 @@ namespace LostAndFound
         {
             if (debugwin)
             {
-                // GameObject torchPrefab = null;
                 // foreach (Transform child in GameObject.Find("Walls").transform)
                 // {
                 //     int i = int.Parse(child.name.Split('-')[0]);
@@ -198,8 +193,8 @@ namespace LostAndFound
                 //     if (GameManager.heart[i,j] == 1)
                 //     {
                 //         path = "Prefab/TorchBright";
-                //         if (torchPrefab == null)
-                //             torchPrefab = Resources.Load<GameObject>(path);
+
+                //         GameObject torchPrefab = Resources.Load<GameObject>(path);
                 //         GameObject torch = Instantiate(torchPrefab);
                 //         torch.transform.parent = child.transform;
 
@@ -210,7 +205,7 @@ namespace LostAndFound
             }
             
 
-            TextHelper.Instance.DisplayWin("Have you found the love?");
+            TextHelper.Instance.DisplayWin("Do you find the love?");
             SwitchCamera(mainCamera, winCamera);
         }
 

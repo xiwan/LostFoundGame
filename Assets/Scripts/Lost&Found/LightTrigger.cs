@@ -18,48 +18,33 @@ namespace LostAndFound
             
         }
 
-        public void TurnOnTorch(Color32 color)
+        public void TurnOnTorch()
         {
-            Debug.Log("xxxxxxxxxxxxxx" + color);
-
             string objname = this.transform.parent.parent.name;
             int i = int.Parse(objname.Split('-')[0]);
             int j = int.Parse(objname.Split('-')[1]);
 
             string path = "Prefab/TorchBlue";
             
-            if(this.transform.parent.childCount == 2)
+            //Debug.Log("xxxxxxxxxxxxxx" + GameManager.heart[i,j]);
+            if (GameManager.heart[i,j] == 1)
             {
-                if (GameManager.heart[i,j] == 0)
-                {
-                    AudioManager.Instance.PlaySound("Sounds/Player/Junkomory Click 20");  
-                    this.transform.parent.Find("Torch").GetComponentInChildren<Light>().color = color;                
-                }
+                path = "Prefab/TorchBright";
+                AudioManager.Instance.PlaySound("Sounds/Player/Junkomory Click 22");
+                GameObject.Find("Maze").SendMessage("DislayTorchStat", true);  
             }
-            else if(this.transform.parent.childCount == 1)
+            else
             {
-                if (GameManager.heart[i,j] == 1)
-                {
-                    path = "Prefab/TorchBright";
-                    AudioManager.Instance.PlaySound("Sounds/Player/Junkomory Click 22");                 
-                }
-                else
-                {
-                    AudioManager.Instance.PlaySound("Sounds/Player/Junkomory Click 20");  
-                }
+                AudioManager.Instance.PlaySound("Sounds/Player/Junkomory Click 20");
+                GameObject.Find("Maze").SendMessage("DislayTorchStat", false);  
+            }
 
-                GameObject torchPrefab = Resources.Load<GameObject>(path);
-                GameObject torch = Instantiate(torchPrefab);
-                torch.transform.parent = this.transform.parent.transform;
-                if (GameManager.heart[i,j] == 0)
-                {
-                    torch.GetComponentInChildren<Light>().color = color;                
-                }
-                torch.transform.localPosition = new Vector3(0, 0, 0);
-                torch.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);   
-            }
-            
-            GameObject.Find("Maze").SendMessage("DislayTorchStat", true);  
+            GameObject torchPrefab = Resources.Load<GameObject>(path);
+            GameObject torch = Instantiate(torchPrefab);
+            torch.transform.parent = this.transform.parent.transform;
+
+            torch.transform.localPosition = new Vector3(0, 0, 0);
+            torch.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);    
         }
         
         private void OnTriggerEnter(Collider other)
@@ -67,8 +52,21 @@ namespace LostAndFound
             if (other.CompareTag("Player"))
             {
                 Debug.Log(this.transform.parent.childCount);
-                GameObject.FindGameObjectWithTag("Player").SendMessage("SetPressEOk", true);
-                GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMove>().TriggerLighter = this.transform.gameObject;
+                if (this.transform.parent.childCount == 1)
+                {
+                    TextHelper.Instance.FadeIn();
+                    GameObject.FindGameObjectWithTag("Player").SendMessage("SetPressEOk", true);
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMove>().TriggerLighter = this.transform.gameObject;
+                    //PlayerMove.Instance.SetPressEOk(true);
+                    //PlayerMove.Instance.TriggerLighter = this.transform.gameObject;
+                }
+                else
+                {
+                    GameObject.FindGameObjectWithTag("Player").SendMessage("SetPressEOk", false);
+                    GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMove>().TriggerLighter = null;
+                    //PlayerMove.Instance.SetPressEOk(false);
+                    //PlayerMove.Instance.TriggerLighter = null;
+                }
             } 
         }
 

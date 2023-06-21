@@ -18,24 +18,23 @@ namespace LostAndFound
         private GameObject playerView;
         private Rigidbody rigidbody;
         private LineRenderer line;
-        private int torchLightColorIndex = 0;
-
-        private List<Color32> lightColorList = new List<Color32>();
+        private int i;
         Vector3 RunStart;
 	    Vector3 RunNext;
+        Damageable damageable;
 
-        // Start is called before the first frame update
-        void Start()
+		private void Awake()
+		{
+            damageable = GetComponent<Damageable> ();
+		}
+
+		// Start is called before the first frame update
+		void Start()
         {
             playerView = GameObject.Find("PlayerView");
             rigidbody = transform.GetComponent<Rigidbody>();
             // GameObject trailClone = (GameObject)Instantiate(trail, this.transform.position, this.transform.rotation);
             // line = trailClone.GetComponent<LineRenderer>();
-
-            lightColorList.Add(new Color32(222, 222, 222, 121)); // 白色
-            lightColorList.Add(new Color32(144, 236, 50, 121)); // 绿色
-            lightColorList.Add(new Color32(60, 121, 248, 121)); // 蓝色
-            lightColorList.Add(new Color32(212, 162, 29, 121)); // 黄色
         }
 
         private void MoveToPos(Vector3 pos)
@@ -54,15 +53,15 @@ namespace LostAndFound
 
             if (Input.GetKey("space"))
             {
-                Debug.Log(lightColorList[torchLightColorIndex]);
-                TriggerLighter.SendMessage("TurnOnTorch", lightColorList[torchLightColorIndex]);
-            }
-            if (Input.GetKeyDown("e"))
-            {
-                torchLightColorIndex++;
-                torchLightColorIndex = torchLightColorIndex%lightColorList.Count;
-                // 更换手电筒颜色
-                playerView.GetComponent<Light>().color = lightColorList[torchLightColorIndex];
+                
+                if (pressEisOK && TriggerLighter.transform.parent.childCount == 1)
+                {
+                    TriggerLighter.SendMessage("TurnOnTorch");
+                }
+                else
+                {
+                    Debug.Log("NotOK");
+                }
             }
             else if (Input.GetKeyDown("m"))
             {
@@ -134,6 +133,18 @@ namespace LostAndFound
             }
         }
 
-    }
+        public void onHit (int damage, Vector3 knockback) {
+            Debug.Log ("damaged");
+        }
+
+		public void onDeath () {
+			Debug.Log ("onDeath");
+		}
+
+
+		public void onHealthChanged (int heal) {
+			Debug.Log ("onHeal");
+		}
+	}
 }
 
