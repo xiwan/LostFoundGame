@@ -1195,13 +1195,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Life never goes well.\nDon't be upset because of something lost.\nDon't
-    be pround bacause of something found.\n\n\n\n\n\"SoundTrack Album\"\n\n<Junkomory>\n<A
-    Scholar's Tale OST>\n<EMPROIUM>\n\n\n\"\u611F\u8C22\u8FD9\u4E24\u5929\u6CA1\u65E5\u6CA1\u591C\u7684\u81EA\u5DF1\n\u6211\u76F8\u4FE1\u6536\u83B7\u5927\u4E8E\u5931\u53BB\"\n\nMusic
-    +Progrmmer + Art:\n\u53CD\u5411\u5F2F\u66F2\n5155280@qq.com\n\n\n\n\n\n\n\n\n\n\n\nThanks
-    to my wife, without your supoort, I could not make it.\n\n\n\nThanks to my daughter\uFF08\u4F73\u4F73\uFF09.\n\n\n\nThanks
-    to those good or bad things happening on me.\n\n\n\nThanks for anyone play it.\n\n\nThanks
-    all!"
+  m_Text: "After escaping the terrifying maze, you feel an immense sense of relief.
+    \n\nSunlight and fresh air surround you, and you know that you have overcome
+    your fears and emerged victorious. \n\nYour bravery will become a legend, inspiring
+    others to face their own fears and surpass their limits. \n\nYour adventure may
+    not be over yet, but you believe in your ability to conquer any challenges. \n\nYou
+    have become a hero who escaped the dreaded maze and will forever shine in the
+    hearts of people.\n\n\n\n\n\"SoundTrack Album\"\n\n<Junkomory>\n<A Scholar's
+    Tale OST>\n<EMPROIUM>\n\n\n\"\u611F\u8C22\u8FD9\u4E24\u5929\u6CA1\u65E5\u6CA1\u591C\u7684\u81EA\u5DF1\n\u6211\u76F8\u4FE1\u6536\u83B7\u5927\u4E8E\u5931\u53BB\"\n\nMusic
+    +Progrmmer + Art:\nbenxiwan@\nlinyesh@\n\n\n\n\nThanks to those good or bad things
+    happening on me.\n\n\n\nThanks for anyone play it.\n\n\nThanks all!"
 --- !u!222 &738152917
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1443,7 +1446,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lost + Found
+  m_Text: Survial Maze
 --- !u!222 &1190844086
 CanvasRenderer:
   m_ObjectHideFlags: 0
