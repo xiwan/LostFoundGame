@@ -22,11 +22,13 @@ namespace LostAndFound
         }
 
         public GameObject LightTorch;
+        public GameObject PortalText;
         // Start is called before the first frame update
         void Start()
         {
             GameObject canvas = GameObject.Find("Canvas");
             LightTorch = canvas.transform.Find("LightTorch").gameObject;
+            PortalText = canvas.transform.Find("PortalText").gameObject;
             LightTorch.SetActive(false);
         }
 
@@ -163,6 +165,28 @@ namespace LostAndFound
         {
             Text targetText = LightTorch.GetComponent<Text>();
             if (targetText != null) {
+                StartCoroutine(SimpleLerp(targetText, 1f, 0f));
+            }
+        }
+
+        public void PortalFadeIn()
+        {
+            if (PortalText != null)
+            {
+                PortalText.SetActive(true);
+                Text targetText = PortalText.GetComponent<Text>();
+                if (targetText != null)
+                {
+                    StartCoroutine(SimpleLerp(targetText, 0f, 1f));
+                }
+            }
+        }
+
+        public void PortalFadeOut()
+        {
+            Text targetText = PortalText.GetComponent<Text>();
+            if (targetText != null)
+            {
                 StartCoroutine(SimpleLerp(targetText, 1f, 0f));
             }
         }

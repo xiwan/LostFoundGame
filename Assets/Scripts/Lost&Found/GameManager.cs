@@ -35,6 +35,7 @@ namespace LostAndFound
         public GameObject Floor;
         public GameObject BoxGood;
         public GameObject BoxBad;
+        public GameObject BoxPortal;
         public GameObject player;
         public Collider exit;
         public Camera winCamera;
@@ -257,6 +258,10 @@ namespace LostAndFound
                             {
                                 wallObj = BoxBad;
                             }
+                            else if (50 <= boxOddsNum && boxOddsNum < 60)
+                            {
+                                wallObj = BoxPortal;
+                            }
                         }
                         totalTorch++;
                         GameObject wall = Instantiate(wallObj, (new Vector3(j + 0.5f, 0.5f, i)) * corridorWidth, Quaternion.Euler(0, 90, 0));
@@ -281,9 +286,13 @@ namespace LostAndFound
                             {
                                 wallObj = BoxGood;
                             }
-                            else if (20 <= boxOddsNum && boxOddsNum < 60)
+                            else if (20 <= boxOddsNum && boxOddsNum < 50)
                             {
                                 wallObj = BoxBad;
+                            }
+                            else if (50 <= boxOddsNum && boxOddsNum < 60)
+                            {
+                                wallObj = BoxPortal;
                             }
                         }
                         totalTorch++;
@@ -342,6 +351,21 @@ namespace LostAndFound
                 player.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
                 player.transform.localPosition = new Vector3(mazeWall.origin.Item2 + 0.5f, 0.25f, mazeWall.origin.Item1 + 0.5f);
                 
+            }
+        }
+
+        private void PortalPlayer()
+        {
+
+            if (player != null)
+            {
+                //GameObject player = GameObject.CreatePrimitive(PrimitiveType.Capsule);
+                player.transform.localScale = new Vector3(0.1f, 0.1f, 0.1f);
+
+                var randPortal = mazeWall.RandomPortal();
+
+                player.transform.localPosition = new Vector3(randPortal.Item2 + 0.5f, 0.25f, randPortal.Item1 + 0.5f);
+
             }
         }
     }

@@ -20,7 +20,7 @@ namespace LostAndFound
 
         public void OpenBox()
         {
-            Debug.Log("xxxxxxxxxxxxxx OpenBox " + this.transform.GetChild(0).name);
+           // Debug.Log("xxxxxxxxxxxxxx OpenBox " + this.transform.GetChild(0).name);
 
             if (this.transform.GetChild(0).name == "goodbox")
             {
@@ -35,6 +35,16 @@ namespace LostAndFound
                 this.gameObject.SetActive(false);
                 this.transform.GetChild(0).gameObject.SetActive(false);
                 AudioManager.Instance.PlaySound("Sounds/Player/Junkomory Click 20");
+            }
+            if (this.transform.GetChild(0).name == "Coin")
+            {
+                //GameObject.FindGameObjectWithTag("Player").GetComponent<Damageable>().Damage(5);
+                this.gameObject.SetActive(false);
+                this.transform.GetChild(0).gameObject.SetActive(false);
+                AudioManager.Instance.PlaySound("Sounds/Player/Junkomory Click 20");
+                GameObject.Find("Maze").SendMessage("PortalPlayer", false);
+
+                //TextHelper.Instance.PortalFadeIn();
             }
 
             /*
@@ -70,7 +80,7 @@ namespace LostAndFound
         {
             if (other.CompareTag("Player"))
             {
-                Debug.Log("xxxxxxxx OnTriggerEnter Box" + this.transform.parent.childCount);
+                //Debug.Log("xxxxxxxx OnTriggerEnter Box" + this.transform.parent.childCount);
                 if (this.transform.parent.childCount >= 1)
                 {
                     TextHelper.Instance.FadeIn();

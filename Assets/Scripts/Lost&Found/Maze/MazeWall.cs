@@ -107,6 +107,13 @@ namespace LostAndFound
                     return (j, 0);
             }
         }
+
+        public (int, int) RandomPortal()
+        {
+            int i = Random.Range(0, rowsum);
+            int j = Random.Range(0, colsum);
+            return (i, j);
+        }
     }
 
 }
