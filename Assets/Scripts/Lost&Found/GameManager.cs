@@ -47,7 +47,7 @@ namespace LostAndFound
         int totalTorch = 0;
         int lightedTorch = 0;
         int winTorch = 200;
-        int initOdds = 15;
+        int initOdds = 20;
         int boxOdds = 50;
 
         bool debugwin = false;
@@ -249,10 +249,11 @@ namespace LostAndFound
                         {
                             wallObj = WallTorch;
                             int boxOddsNum = Random.Range(0, 100);
-                            if (boxOddsNum < 30)
+                            if (boxOddsNum < 20)
                             {
                                 wallObj = BoxGood;
-                            }else if (30 <= boxOddsNum && boxOddsNum < 60)
+                            }
+                            else if (20 <= boxOddsNum && boxOddsNum < 50)
                             {
                                 wallObj = BoxBad;
                             }
@@ -276,11 +277,11 @@ namespace LostAndFound
                         {
                             wallObj = WallTorch;
                             int boxOddsNum = Random.Range(0, 100);
-                            if (boxOddsNum < 30)
+                            if (boxOddsNum < 20)
                             {
                                 wallObj = BoxGood;
                             }
-                            else if (30 <= boxOddsNum && boxOddsNum < 60)
+                            else if (20 <= boxOddsNum && boxOddsNum < 60)
                             {
                                 wallObj = BoxBad;
                             }
@@ -312,7 +313,7 @@ namespace LostAndFound
             {
                 Vector3 exit1Pos = (new Vector3(mazeWall.start.Item2 + 0.5f, 0.1f, mazeWall.start.Item1 + 0.5f)) * corridorWidth;
                 Vector3 exit2Pos = (new Vector3(mazeWall.exit.Item2 + 0.5f, 0.1f, mazeWall.exit.Item1 + 0.5f)) * corridorWidth;
-                Collider exit1 = Instantiate(exit,  exit1Pos, Quaternion.Euler(0, 0, 0));
+                Collider exit1 = Instantiate(exit, exit1Pos, Quaternion.Euler(0, 0, 0));
                 Collider exit2 = Instantiate(exit, exit2Pos, Quaternion.Euler(0, 0, 0));
                 exit1.transform.parent = GameObject.Find("Exit").transform;
                 exit2.transform.parent = GameObject.Find("Exit").transform;

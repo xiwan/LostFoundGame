@@ -54,7 +54,7 @@ namespace LostAndFound
             source = gameObject.GetComponent<AudioSource>();
             if (source == null)
             {
-                source =gameObject.AddComponent<AudioSource>();
+                source = gameObject.AddComponent<AudioSource>();
             }
 
             if (!source.isPlaying)

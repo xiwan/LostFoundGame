@@ -55,7 +55,7 @@ namespace LostAndFound
             if (Input.GetKey("space"))
             {
 
-                Debug.Log("xxxxxxxx space " + pressEisOK);
+                //Debug.Log("xxxxxxxx space " + pressEisOK);
                 if (pressEisOK && TriggerLighter!= null && TriggerLighter.activeSelf)
                 {
                     TriggerLighter.SendMessage("TurnOnTorch");
@@ -76,13 +76,17 @@ namespace LostAndFound
             else if (Input.GetKey("up") || Input.GetKey("w") )
             {
                 this.transform.Translate(0, 0, speed*Time.deltaTime);
+                //AudioManager.Instance.PlaySound("Sounds/Player/14664");
                 AudioManager.Instance.PlaySound("Sounds/Player/sneaker-shoe-on-concrete-floor-medium-pace-1");
+                
                 TextHelper.Instance.HideInit();
             }
             else if (Input.GetKey("down") || Input.GetKey("s"))
             {
                 this.transform.Translate(0, 0, -speed * Time.deltaTime);
+                //AudioManager.Instance.PlaySound("Sounds/Player/14664");
                 AudioManager.Instance.PlaySound("Sounds/Player/sneaker-shoe-on-concrete-floor-medium-pace-1");
+                
                 TextHelper.Instance.HideInit();
             }
             else if (Input.GetKey("left") || Input.GetKey("a"))

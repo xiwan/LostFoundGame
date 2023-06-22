@@ -27,12 +27,14 @@ namespace LostAndFound
                 GameObject.FindGameObjectWithTag("Player").GetComponent<Damageable>().Heal(5);
                 this.gameObject.SetActive(false);
                 this.transform.GetChild(0).gameObject.SetActive(false);
+                AudioManager.Instance.PlaySound("Sounds/Player/Junkomory Click 22");
             }
             if (this.transform.GetChild(0).name == "badbox")
             {
                 GameObject.FindGameObjectWithTag("Player").GetComponent<Damageable>().Damage(5);
                 this.gameObject.SetActive(false);
                 this.transform.GetChild(0).gameObject.SetActive(false);
+                AudioManager.Instance.PlaySound("Sounds/Player/Junkomory Click 20");
             }
 
             /*
