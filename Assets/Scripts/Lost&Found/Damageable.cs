@@ -46,6 +46,11 @@ public class Damageable : MonoBehaviour {
 		
 	}
 
+	private void Start()
+	{
+		Health = MaxHealth;
+	}
+
 	private void Update () {
 		if (isInvincible) {
 			if (timeSinceDamaged > invincibilityTimer) {

@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lost&Found.unity
     guid: a0c088699981cd941bc4efa8e1f3b4cc
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 101e5d3a1b6a646c0ae751d8f81e3c26
   m_configObjects: {}

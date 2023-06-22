@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 namespace LostAndFound
 {
     public class PlayerMove : MonoBehaviour
@@ -145,6 +145,7 @@ namespace LostAndFound
 
 		public void onDeath () {
 			Debug.Log ("onDeath");
+            SceneManager.LoadScene ("GameOver");
 		}
 
 

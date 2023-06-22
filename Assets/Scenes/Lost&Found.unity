@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311932, g: 0.38073996, b: 0.3587271, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -385,8 +385,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 372164538}
-  m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 30, z: 0}
+  m_LocalRotation: {x: 0.08715578, y: 0, z: 0, w: 0.9961947}
+  m_LocalPosition: {x: 0, y: 10, z: 0}
   m_LocalScale: {x: 10, y: 10, z: 10}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -394,7 +394,7 @@ Transform:
   - {fileID: 337343308}
   m_Father: {fileID: 1452664902}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 10, y: 0, z: 0}
 --- !u!82 &372164542
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1796,6 +1796,7 @@ MonoBehaviour:
   smoothing: 1
   TorchPre: {fileID: 346911390527560072, guid: a2930e8c33db800439ceaf770bacb9fc, type: 3}
   TriggerLighter: {fileID: 0}
+  TriggerBox: {fileID: 0}
 --- !u!54 &1452664904
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1940,9 +1941,21 @@ MonoBehaviour:
       m_Calls: []
   damageableDeath:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1452664903}
+        m_TargetAssemblyTypeName: LostAndFound.PlayerMove, Assembly-CSharp
+        m_MethodName: onDeath
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   _maxHealth: 100
-  _health: 100
+  _health: 1
   _isAlive: 1
   invincibilityTimer: 1
 --- !u!114 &1452664907
@@ -2467,7 +2480,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'M = Map
 
-    E = Light'
+    Space = Light'
 --- !u!222 &1953111724
 CanvasRenderer:
   m_ObjectHideFlags: 0

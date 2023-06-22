@@ -46,8 +46,8 @@ public class HealthBar : MonoBehaviour {
 		esclateTime += Time.deltaTime;
 		textMeshPro.text = "Time Esclate: " +
 			String.Format ("{0:00}", Math.Floor (esclateTime / 3600)) + ":" +
-			String.Format ("{0:00}", Math.Floor (esclateTime / 60)) + ":" +
-			String.Format ("{0:00}", Math.Floor (esclateTime));
+			String.Format ("{0:00}", Math.Floor (esclateTime % 3600 / 60)) + ":" +
+			String.Format ("{0:00}", Math.Floor (esclateTime % 60));
 	}
 
 	private void OnPlayerHeanthChanged (int newHealth, int maxHealth) {
