@@ -33,6 +33,8 @@ namespace LostAndFound
         public GameObject Wall;//在编辑器中指定墙体Prefeb
         public GameObject WallTorch;//在编辑器中指定墙体Prefeb
         public GameObject Floor;
+        public GameObject BoxGood;
+        public GameObject BoxBad;
         public GameObject player;
         public Collider exit;
         public Camera winCamera;
@@ -45,7 +47,8 @@ namespace LostAndFound
         int totalTorch = 0;
         int lightedTorch = 0;
         int winTorch = 200;
-        int initOdds = 10;
+        int initOdds = 15;
+        int boxOdds = 50;
 
         bool debugwin = false;
         List<WallMark> heartList = new List<WallMark>();
@@ -245,7 +248,14 @@ namespace LostAndFound
                         if (Random.Range(0,100) < initOdds) 
                         {
                             wallObj = WallTorch;
-                            //lightedTorch++;
+                            int boxOddsNum = Random.Range(0, 100);
+                            if (boxOddsNum < 30)
+                            {
+                                wallObj = BoxGood;
+                            }else if (30 <= boxOddsNum && boxOddsNum < 60)
+                            {
+                                wallObj = BoxBad;
+                            }
                         }
                         totalTorch++;
                         GameObject wall = Instantiate(wallObj, (new Vector3(j + 0.5f, 0.5f, i)) * corridorWidth, Quaternion.Euler(0, 90, 0));
@@ -265,13 +275,20 @@ namespace LostAndFound
                         if (Random.Range(0,100) < initOdds)  
                         {
                             wallObj = WallTorch;
-                            //lightedTorch++;
+                            int boxOddsNum = Random.Range(0, 100);
+                            if (boxOddsNum < 30)
+                            {
+                                wallObj = BoxGood;
+                            }
+                            else if (30 <= boxOddsNum && boxOddsNum < 60)
+                            {
+                                wallObj = BoxBad;
+                            }
                         }
                         totalTorch++;
-                        GameObject wall = Instantiate(Wall, (new Vector3(j, 0.5f, i + 0.5f)) * corridorWidth, Quaternion.Euler(0, 0, 0));
+                        GameObject wall = Instantiate(wallObj, (new Vector3(j, 0.5f, i + 0.5f)) * corridorWidth, Quaternion.Euler(0, 0, 0));
                         wall.transform.parent = walls.transform;
-                        wall.name = string.Format("{0}-{1}", i, j);
-                    }
+                        wall.name = string.Format("{0}-{1}", i, j);                    }
                 }
             }
 

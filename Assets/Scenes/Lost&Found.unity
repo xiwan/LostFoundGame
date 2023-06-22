@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311932, g: 0.38073996, b: 0.3587271, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1616,6 +1616,8 @@ MonoBehaviour:
   WallTorch: {fileID: 3099200532682424327, guid: 8adb05f404bedb643ad81d809735c988,
     type: 3}
   Floor: {fileID: 7676796811023016209, guid: 04087fe59d6e0744798388d8b9e6eb41, type: 3}
+  BoxGood: {fileID: 6289640897729859207, guid: dfce8038c2328c342a919289c9a99c78, type: 3}
+  BoxBad: {fileID: 6289640897729859207, guid: d0e315be2c61e084baa0ea6b6a574aec, type: 3}
   player: {fileID: 1452664898}
   exit: {fileID: 3851568700155223055, guid: 85b16da8a61de0a459cb2cf1fc5c69f7, type: 3}
   winCamera: {fileID: 1575820423}

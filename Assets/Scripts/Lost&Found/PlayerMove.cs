@@ -15,6 +15,7 @@ namespace LostAndFound
         private bool pressEisOK = false;
 
         public GameObject TriggerLighter = null;
+        public GameObject TriggerBox = null;
         private GameObject playerView;
         private Rigidbody rigidbody;
         private LineRenderer line;
@@ -53,14 +54,19 @@ namespace LostAndFound
 
             if (Input.GetKey("space"))
             {
-                
-                if (pressEisOK && TriggerLighter.transform.parent.childCount == 1)
+
+                Debug.Log("xxxxxxxx space " + pressEisOK);
+                if (pressEisOK && TriggerLighter!= null && TriggerBox.activeSelf)
                 {
                     TriggerLighter.SendMessage("TurnOnTorch");
                 }
+                else if(pressEisOK && TriggerBox!= null && TriggerBox.activeSelf)
+                {
+                    TriggerBox.SendMessage("OpenBox");
+                }
                 else
                 {
-                    Debug.Log("NotOK");
+                   // Debug.Log("NotOK");
                 }
             }
             else if (Input.GetKeyDown("m"))

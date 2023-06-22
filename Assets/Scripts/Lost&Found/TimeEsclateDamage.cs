@@ -20,7 +20,7 @@ public class TimeEsclateDamage : MonoBehaviour
     {
         esclateTime += Time.deltaTime;
         if(esclateTime - sinceDamagedTime > damageInterval) {
-            Debug.Log ("Damaged "+damage +" point");
+            //Debug.Log ("Damaged "+damage +" point");
             damageable.Damage (damage);
 
             sinceDamagedTime = esclateTime;

@@ -51,7 +51,7 @@ namespace LostAndFound
         {
             if (other.CompareTag("Player"))
             {
-                Debug.Log(this.transform.parent.childCount);
+                Debug.Log("xxxxxxxx OnTriggerEnter Light " + this.transform.parent.childCount);
                 if (this.transform.parent.childCount == 1)
                 {
                     TextHelper.Instance.FadeIn();
