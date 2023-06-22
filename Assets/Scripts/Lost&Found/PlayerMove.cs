@@ -56,7 +56,7 @@ namespace LostAndFound
             {
 
                 Debug.Log("xxxxxxxx space " + pressEisOK);
-                if (pressEisOK && TriggerLighter!= null && TriggerBox.activeSelf)
+                if (pressEisOK && TriggerLighter!= null && TriggerLighter.activeSelf)
                 {
                     TriggerLighter.SendMessage("TurnOnTorch");
                 }
